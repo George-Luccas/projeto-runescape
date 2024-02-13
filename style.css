@@ -1,26 +1,88 @@
 @charset "UTF-8";
+@font-face {
+    font-family:titulo;
+    src: url(fonte/fearless.ttf);
+}
 
-body{ 
+
+
+h1{
+    width: 250px;
+    border: 2px solid  rgba(177, 177, 24, 0.655);
+    color: rgba(177, 177, 24, 0.655);
+    font-family: "titulo",arial,helvetica;
     margin: 0px;
 }
 
-
 header{
+
     height:400px;
     background-image: url(imagens/irmaos-catacumba.jpg);
     background-position: center center;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     
 
+nav{
+    width:500px;
+    background-color: #3a4039;
+    
+}
+
+nav > a { 
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgba(177, 177, 24, 0.655);
+    color: white;
+    padding-left: 30px;
+   padding-right: 40px;
+   text-decoration: none;
+}
 
 
+nav>:hover{
+            background-color:rgba(177, 177, 24, 0.655);
+            color: #3a4039;
+            transition: 1.5s;
 
+}
 
+body{ 
+    background-color: #3a4039;
+    margin: 0px;
+}
 
+main p { 
+    border: 2px solid rgba(177, 177, 24, 0.655);
+    text-align: justify;
+    background-color: white
+}
 
+.ir1-1 { 
+    background-image: url(imagens/geral1.jpg);
+    text-align:justify;
+    font-size: 3em;
+    font-family: "titulo",arial,helvetica; 
+    color:#2c302b ;
+
+}
 
 #ir1{
-    margin-left: 550px;
-    border: 5px solid black;
+
+    display: block;
+    margin-left : auto;
+    border: 5px solid rgba(177, 177, 24, 0.655);
     border-radius: 10px;
 }
+
+#ir2{
+    text-align: right;
+    border: 5px solid rgba(177, 177, 24, 0.655);
+    border-radius: 10px;
+}
+
+#ir3{
+    margin-left: 550px;
+    border: 5px solid rgba(177, 177, 24, 0.655);
+    border-radius: 10px;}
