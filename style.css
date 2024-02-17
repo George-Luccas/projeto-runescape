@@ -7,16 +7,16 @@
 
 
 h1{
-    width: 250px;
-    border: 2px solid  rgba(177, 177, 24, 0.655);
+    width: 3000px;
+    font-size: 3em;
     color: rgba(177, 177, 24, 0.655);
     font-family: "titulo",arial,helvetica;
     margin: 0px;
 }
 
 header{
-
-    height:400px;
+    height: 600px;;
+    background-size:contain;
     background-image: url(imagens/irmaos-catacumba.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -49,23 +49,40 @@ nav>:hover{
 }
 
 body{ 
-    background-color: #3a4039;
+    background-image: url(imagens/fundo-body.jpg);
     margin: 0px;
 }
 
 main p { 
+    margin: auto;
+    line-height: 1.2em;
+    font-size:1.2em;
+    padding: 10px;
     border: 2px solid rgba(177, 177, 24, 0.655);
     text-align: justify;
-    background-color: white
+    background-color: rgba(255, 255, 255, 0.185)
 }
 
 .ir1-1 { 
+   
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
     background-image: url(imagens/geral1.jpg);
     text-align:justify;
     font-size: 3em;
     font-family: "titulo",arial,helvetica; 
-    color:#2c302b ;
+    color:#f57606 ;
 
+}
+
+.ir1-1 > div { 
+    width: 100px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50,-50);
 }
 
 #ir1{
